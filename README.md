@@ -79,12 +79,9 @@
                     printf("O fundo é branco");
                 default: 
                     printf("O fundo padrão é cinza");
-                break;}
-        
-
-				
+                break;}	
     return 0; -> devolve ao S.O que tudo foi executado corretamente   
-}
+	}
 
 
 
