@@ -5,7 +5,7 @@
 
 <h2 align="center">Estrutura Basica de um programa em C</h2>
 
-    1- Bibliotecas ou arquivos de cabeçalho
+	1- Bibliotecas ou arquivos de cabeçalho 
 	    #include <stdio.h>
 	    #include <stdlib.h>
 	    #include <math.h>
