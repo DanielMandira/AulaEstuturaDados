@@ -6,7 +6,8 @@
 <h2 align="center">Estrutura Basica de um programa em C</h2>
 
 1- Bibliotecas ou arquivos de cabeçalho 
-	#include <stdio.h>
+	
+ 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <math.h>
 
@@ -89,25 +90,46 @@
 
  6- Estrutura de Repetição
   		
-    		a) For: Quando se sabe a quantidade exata de repetições
-      			for(int i; i<=10; i++){
-	 			printf("%d", i);
-			}
-   				(int i=0 -> 'Inicializa o contador'; i<10 -> 'Comparação / Condição'; i++ -> 'Incremeto ou decremento')
+	a) For: Quando se sabe a quantidade exata de repetições
+      		for(int i; i<=10; i++){
+	 		printf("%d", i);
+		}
+   			(int i=0 -> 'Inicializa o contador'; i<10 -> 'Comparação / Condição'; i++ -> 'Incremeto ou decremento')
     		
-      		b) While: Estrutura de teste no início, Executa 0 ou + vezes
-			int n=3;
-   			while(n>0){
-      				printf("%d",n);
-      				n--;
-      			}
+	b) While: Estrutura de teste no início, Executa 0 ou + vezes
+		int n=3;
+		while(n>0){
+      			printf("%d",n);
+			n--;
+		}
 	 
-		c) do... While: Estrutura de teste no final,  Executa 1 ou + vezes
-  			int num = -1;
-  			do{
-     				printf("%d", num);
-	 			num--;
-			}while(num>0);
+	c) do... While: Estrutura de teste no final,  Executa 1 ou + vezes
+  		int num = -1;
+  		do{
+     			printf("%d", num);
+	 		num--;
+		}while(num>0);
+
+7- Vetor:
+	
+ 	É um arranjo unidimensional: [0|1|2|3|4|5]
+  		Declaração
+    			int vet[6];
+		
+  		Inserção de dados
+      			for(int i=0; i<6; i++){
+				scanf("%d",&vet[i]);
+     				//[7,29,31,8,47,63]
+    			}
+       		
+	 	Busca de Elementos
+	 		for(int j=0;<6;j++){
+				if(vet[j]==8){
+					printf("%d",j);
+    				}
+       			}
+
+  	
   			
 return 0; -> devolve ao S.O que tudo foi executado corretamente   
 }
