@@ -5,27 +5,29 @@
 
 <h2 align="center">Estrutura Basica de um programa em C</h2>
 
-	1- Bibliotecas ou arquivos de cabeçalho 
-	    #include <stdio.h>
-	    #include <stdlib.h>
-	    #include <math.h>
+1- Bibliotecas ou arquivos de cabeçalho 
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <math.h>
 
     
-    2- Principal função a ser executada
-	    int main(){
+2- Principal função a ser executada
+	
+ 	int main(){
 
-    3- Variaveis e Tipos (Variavel = Espaço reservado na memória)
-      a) Declaração  -> TipoVariavel NomeVariavel;
-            EX: int idade;
+3- Variaveis e Tipos (Variavel = Espaço reservado na memória)
       
-      b) Tipos: 
-            int -> inteiro
-            float
-            double -> ponto flutuante
-            char -> caractere
-            void -> não tem retorno a função
+      	a) Declaração  -> TipoVariavel NomeVariavel;
+            	EX: int idade;
+      
+      	b) Tipos: 
+            	int -> inteiro
+            	float
+            	double -> ponto flutuante
+            	char -> caractere
+            	void -> não tem retorno a função
         
-      c) Comandos de Entrada e Saida
+	c) Comandos de Entrada e Saida
             printf: Mosta informação na tela, ex:
                 printf("Hello Wolrd!")
                 printf("%d", idade); 
@@ -33,55 +35,82 @@
             scanf: Entrada de dados (leitura de valores), ex:
                 scanf("%d",&idade);
                     
-      d) Caractere de Formatação:
+	d) Caractere de Formatação:
         	%d / %i -> int
-            %f -> float
-            %lf -> double
-            %c -> char
-            %s -> vetor de caracteres
+            	%f -> float
+            	%lf -> double
+            	%c -> char
+            	%s -> vetor de caracteres
                 
-    4- Operadores 
-	    a) Logicos: 
-		    && -> e
-		    || -> ou
+4- Operadores 
+	    
+     	a) Logicos: 
+		&& -> e
+		|| -> ou
     
-	    b) Aritiméticos:
-		    + -> Soma
-		    - -> Subtração
-		    * -> Multiplicação
-		    / -> Divisão
+	b) Aritiméticos:
+		+ -> Soma
+		- -> Subtração
+		* -> Multiplicação
+		/ -> Divisão
 	
-	    c) Comparação:
-		    < -> Menor
-		    > -> Maior
-		    <= -> Menor ou Igual
-		    >= -> Maior ou Igual
+	c) Comparação:
+		< -> Menor
+		> -> Maior
+		<= -> Menor ou Igual
+		>= -> Maior ou Igual
 
-    5- Estrutura de Controle 
-	    a) if:
-             if(a == b){
-                 printf("São Iguais");
-             }
+5- Estrutura de Controle 
+	    
+     	a) if:
+     		if(a == b){
+        		printf("São Iguais");
+		}
 
-	    b) if - else:
-             if(a == b){
-                 printf("São Iguais");
-             }else{
-                 printf("São NÃO Iguais");
-             }
+	b) if - else:
+		if(a == b){
+			printf("São Iguais");
+		}else{
+                 	printf("São NÃO Iguais");
+             	}
 
-	    c) switch: 
-            switch(cor){ 
-                case 000:
-                    printf("O fundo é preto"); 
-                break; 
-                case fff:
-                    printf("O fundo é branco");
-                default: 
-                    printf("O fundo padrão é cinza");
-                break;}	
-    return 0; -> devolve ao S.O que tudo foi executado corretamente   
-	}
+	c) switch: 
+		switch(cor){ 
+			case 000:
+				printf("O fundo é preto"); 
+			break; 
+			case fff:
+				printf("O fundo é branco");
+    			break;
+			default: 
+                    		printf("O fundo padrão é cinza");
+                	break;
+		}	
+
+ 6- Estrutura de Repetição
+  		
+    		a) For: Quando se sabe a quantidade exata de repetições
+      			for(int i; i<=10; i++){
+	 			printf("%d", i);
+			}
+   				(int i=0 -> 'Inicializa o contador'; i<10 -> 'Comparação / Condição'; i++ -> 'Incremeto ou decremento')
+    		
+      		b) While: Estrutura de teste no início, Executa 0 ou + vezes
+			int n=3;
+   			while(n>0){
+      				printf("%d",n);
+      				n--;
+      			}
+	 
+		c) do... While: Estrutura de teste no final,  Executa 1 ou + vezes
+  			int num = -1;
+  			do{
+     				printf("%d", num);
+	 			num--;
+			}while(num>0);
+  			
+return 0; -> devolve ao S.O que tudo foi executado corretamente   
+}
 
 
 
