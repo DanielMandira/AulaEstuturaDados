@@ -5,18 +5,18 @@
 
 <h2 align="center">Estrutura Basica de um programa em C</h2>
 
-1- Bibliotecas ou arquivos de cabeçalho 
+#### Bibliotecas ou arquivos de cabeçalho 
 	
  	#include <stdio.h>
 	#include <stdlib.h>
 	#include <math.h>
 
     
-2- Principal função a ser executada
+#### Principal função a ser executada
 	
  	int main(){
 
-3- Variaveis e Tipos (Variavel = Espaço reservado na memória)
+#### Variaveis e Tipos (Variavel = Espaço reservado na memória)
       
       	a) Declaração  -> TipoVariavel NomeVariavel;
             	EX: int idade;
@@ -43,7 +43,7 @@
             	%c -> char
             	%s -> vetor de caracteres
                 
-4- Operadores 
+#### Operadores 
 	    
      	a) Logicos: 
 		&& -> e
@@ -61,7 +61,7 @@
 		<= -> Menor ou Igual
 		>= -> Maior ou Igual
 
-5- Estrutura de Controle 
+#### Estrutura de Controle 
 	    
      	a) if:
      		if(a == b){
@@ -88,7 +88,7 @@
                 	break;
 		}	
 
- 6- Estrutura de Repetição
+ #### Estrutura de Repetição
   		
 	a) For: Quando se sabe a quantidade exata de repetições
       		for(int i; i<=10; i++){
@@ -110,7 +110,7 @@
 	 		num--;
 		}while(num>0);
 
-7- Vetor:
+#### Vetor:
 	
  	É um arranjo unidimensional: [0|1|2|3|4|5]
   		Declaração
