@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710457638 source:c:\users\fatec-dsm2\desktop\aulaestuturadados\atividade01\main.c
+	<stdio.h>
+	<stdlib.h>
+
