@@ -1,9 +1,4 @@
-<h1 align="center"> Aula Estrutura de Dados</h1>
-
-<p align="center">Atividades Realizadas durante as aulas de Estrutura de DadosAtividades Realizadas durante as aulas de Estrutura de Dados</p>
-
-
-<h2 align="center">Estrutura Basica de um programa em C</h2>
+## Estrutura Basica de um programa em C
 
 #### Bibliotecas ou arquivos de cabeçalho 
 	
