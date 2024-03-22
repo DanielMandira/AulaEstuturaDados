@@ -76,7 +76,7 @@
 
 #### Código em C:
 
-> `void BubbleSort(int * v, int n ){//n é tamanhodo vetor int i, fim, aux; for (fim = n-1; fim > 0; --fim){ for(i = 0; i < fim; ++i>){ if(v[i] > v [i+1]){ aux = v[i]; v[i] = v[i+1]; v[i+1] = aux; }}}}`
+`void BubbleSort(int* v, int n ){//n é tamanhodo vetor int i, fim, aux; for (fim = n-1; fim > 0; --fim){ for(i = 0; i < fim; ++i>){ if(v[i] > v [i+1]){ aux = v[i]; v[i] = v[i+1]; v[i+1] = aux; }}}}`
 
 <br>
 <br>
